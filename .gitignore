@@ -1,0 +1,4 @@
+*.pro.user*
+ui_*.h
+*.o
+moc_*
