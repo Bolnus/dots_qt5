@@ -209,6 +209,7 @@ void Graphics::initScene()
         if(progressBar->isVisible())
             progressBar->setValue(progressBar->value()+1);
     }
+    scene->setSceneRect(scene->itemsBoundingRect());
 }
 
 void Graphics::slotClearGameProgress()
