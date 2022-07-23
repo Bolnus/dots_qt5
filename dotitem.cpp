@@ -111,6 +111,8 @@ QGraphicsPolygonItem * DotItem::getPolygonItem()
 {
     if(lineChain)
         return lineChain;
+    else
+        return 0;
 }
 
 QRectF DotItem::boundingRect() const
