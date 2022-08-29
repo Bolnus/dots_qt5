@@ -5,6 +5,7 @@
 
 #include "ui_game.h"
 #include "graphics.h"
+#include "mainmenu.h"
 
 namespace Ui {
 class Game;
@@ -21,6 +22,10 @@ public:
 private:
     Ui::Game *ui;
     Graphics *graphics;
+    MainMenu *mainMenu;
+
+private slots:
+    void playGame();
 };
 
 #endif // GAME_H

@@ -29,16 +29,19 @@ SOURCES += \
         graphics.cpp \
     dotitem.cpp \
     graphicsscene.cpp \
-    game.cpp
+    game.cpp \
+    mainmenu.cpp
 
 HEADERS += \
         graphics.h \
     dotitem.h \
     graphicsscene.h \
-    game.h
+    game.h \
+    mainmenu.h
 
 FORMS += \
         graphics.ui \
-    game.ui
+    game.ui \
+    mainmenu.ui
 
 
